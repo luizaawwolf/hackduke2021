@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079218052724B6A500683107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218042724B6A500683107 /* AppDelegate.swift */; };
+		079218072724B6A500683107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218062724B6A500683107 /* SceneDelegate.swift */; };
+		079218092724B6A500683107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218082724B6A500683107 /* ViewController.swift */; };
+		0792180C2724B6A500683107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0792180A2724B6A500683107 /* Main.storyboard */; };
+		0792180E2724B6AB00683107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0792180D2724B6AB00683107 /* Assets.xcassets */; };
+		079218112724B6AB00683107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0792180F2724B6AB00683107 /* LaunchScreen.storyboard */; };
+		0792181C2724B6AB00683107 /* HackDuke2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792181B2724B6AB00683107 /* HackDuke2021Tests.swift */; };
+		079218272724B6AB00683107 /* HackDuke2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218262724B6AB00683107 /* HackDuke2021UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079218182724B6AB00683107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079217F92724B6A500683107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079218002724B6A500683107;
+			remoteInfo = HackDuke2021;
+		};
+		079218232724B6AB00683107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079217F92724B6A500683107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079218002724B6A500683107;
+			remoteInfo = HackDuke2021;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079218012724B6A500683107 /* HackDuke2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackDuke2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079218042724B6A500683107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079218062724B6A500683107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		079218082724B6A500683107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0792180B2724B6A500683107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0792180D2724B6AB00683107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079218102724B6AB00683107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079218122724B6AB00683107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079218172724B6AB00683107 /* HackDuke2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDuke2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0792181B2724B6AB00683107 /* HackDuke2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackDuke2021Tests.swift; sourceTree = "<group>"; };
+		0792181D2724B6AB00683107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079218222724B6AB00683107 /* HackDuke2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDuke2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079218262724B6AB00683107 /* HackDuke2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackDuke2021UITests.swift; sourceTree = "<group>"; };
+		079218282724B6AB00683107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079217FE2724B6A500683107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079218142724B6AB00683107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0792181F2724B6AB00683107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079217F82724B6A500683107 = {
+			isa = PBXGroup;
+			children = (
+				079218032724B6A500683107 /* HackDuke2021 */,
+				0792181A2724B6AB00683107 /* HackDuke2021Tests */,
+				079218252724B6AB00683107 /* HackDuke2021UITests */,
+				079218022724B6A500683107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079218022724B6A500683107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079218012724B6A500683107 /* HackDuke2021.app */,
+				079218172724B6AB00683107 /* HackDuke2021Tests.xctest */,
+				079218222724B6AB00683107 /* HackDuke2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079218032724B6A500683107 /* HackDuke2021 */ = {
+			isa = PBXGroup;
+			children = (
+				079218042724B6A500683107 /* AppDelegate.swift */,
+				079218062724B6A500683107 /* SceneDelegate.swift */,
+				079218082724B6A500683107 /* ViewController.swift */,
+				0792180A2724B6A500683107 /* Main.storyboard */,
+				0792180D2724B6AB00683107 /* Assets.xcassets */,
+				0792180F2724B6AB00683107 /* LaunchScreen.storyboard */,
+				079218122724B6AB00683107 /* Info.plist */,
+			);
+			path = HackDuke2021;
+			sourceTree = "<group>";
+		};
+		0792181A2724B6AB00683107 /* HackDuke2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0792181B2724B6AB00683107 /* HackDuke2021Tests.swift */,
+				0792181D2724B6AB00683107 /* Info.plist */,
+			);
+			path = HackDuke2021Tests;
+			sourceTree = "<group>";
+		};
+		079218252724B6AB00683107 /* HackDuke2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				079218262724B6AB00683107 /* HackDuke2021UITests.swift */,
+				079218282724B6AB00683107 /* Info.plist */,
+			);
+			path = HackDuke2021UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079218002724B6A500683107 /* HackDuke2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0792182B2724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021" */;
+			buildPhases = (
+				079217FD2724B6A500683107 /* Sources */,
+				079217FE2724B6A500683107 /* Frameworks */,
+				079217FF2724B6A500683107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackDuke2021;
+			productName = HackDuke2021;
+			productReference = 079218012724B6A500683107 /* HackDuke2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079218162724B6AB00683107 /* HackDuke2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0792182E2724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021Tests" */;
+			buildPhases = (
+				079218132724B6AB00683107 /* Sources */,
+				079218142724B6AB00683107 /* Frameworks */,
+				079218152724B6AB00683107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079218192724B6AB00683107 /* PBXTargetDependency */,
+			);
+			name = HackDuke2021Tests;
+			productName = HackDuke2021Tests;
+			productReference = 079218172724B6AB00683107 /* HackDuke2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		079218212724B6AB00683107 /* HackDuke2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079218312724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021UITests" */;
+			buildPhases = (
+				0792181E2724B6AB00683107 /* Sources */,
+				0792181F2724B6AB00683107 /* Frameworks */,
+				079218202724B6AB00683107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079218242724B6AB00683107 /* PBXTargetDependency */,
+			);
+			name = HackDuke2021UITests;
+			productName = HackDuke2021UITests;
+			productReference = 079218222724B6AB00683107 /* HackDuke2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079217F92724B6A500683107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					079218002724B6A500683107 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					079218162724B6AB00683107 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 079218002724B6A500683107;
+					};
+					079218212724B6AB00683107 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 079218002724B6A500683107;
+					};
+				};
+			};
+			buildConfigurationList = 079217FC2724B6A500683107 /* Build configuration list for PBXProject "HackDuke2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079217F82724B6A500683107;
+			productRefGroup = 079218022724B6A500683107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079218002724B6A500683107 /* HackDuke2021 */,
+				079218162724B6AB00683107 /* HackDuke2021Tests */,
+				079218212724B6AB00683107 /* HackDuke2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079217FF2724B6A500683107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079218112724B6AB00683107 /* LaunchScreen.storyboard in Resources */,
+				0792180E2724B6AB00683107 /* Assets.xcassets in Resources */,
+				0792180C2724B6A500683107 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079218152724B6AB00683107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079218202724B6AB00683107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079217FD2724B6A500683107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079218092724B6A500683107 /* ViewController.swift in Sources */,
+				079218052724B6A500683107 /* AppDelegate.swift in Sources */,
+				079218072724B6A500683107 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079218132724B6AB00683107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0792181C2724B6AB00683107 /* HackDuke2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0792181E2724B6AB00683107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079218272724B6AB00683107 /* HackDuke2021UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079218192724B6AB00683107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079218002724B6A500683107 /* HackDuke2021 */;
+			targetProxy = 079218182724B6AB00683107 /* PBXContainerItemProxy */;
+		};
+		079218242724B6AB00683107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079218002724B6A500683107 /* HackDuke2021 */;
+			targetProxy = 079218232724B6AB00683107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0792180A2724B6A500683107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0792180B2724B6A500683107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0792180F2724B6AB00683107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079218102724B6AB00683107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079218292724B6AB00683107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0792182A2724B6AB00683107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0792182C2724B6AB00683107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0792182D2724B6AB00683107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0792182F2724B6AB00683107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackDuke2021.app/HackDuke2021";
+			};
+			name = Debug;
+		};
+		079218302724B6AB00683107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackDuke2021.app/HackDuke2021";
+			};
+			name = Release;
+		};
+		079218322724B6AB00683107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackDuke2021;
+			};
+			name = Debug;
+		};
+		079218332724B6AB00683107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDuke2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WACS.HackDuke2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackDuke2021;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079217FC2724B6A500683107 /* Build configuration list for PBXProject "HackDuke2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079218292724B6AB00683107 /* Debug */,
+				0792182A2724B6AB00683107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0792182B2724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0792182C2724B6AB00683107 /* Debug */,
+				0792182D2724B6AB00683107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0792182E2724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0792182F2724B6AB00683107 /* Debug */,
+				079218302724B6AB00683107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079218312724B6AB00683107 /* Build configuration list for PBXNativeTarget "HackDuke2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079218322724B6AB00683107 /* Debug */,
+				079218332724B6AB00683107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079217F92724B6A500683107 /* Project object */;
+}
