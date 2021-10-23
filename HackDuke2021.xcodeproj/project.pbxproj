@@ -15,6 +15,8 @@
 		079218112724B6AB00683107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0792180F2724B6AB00683107 /* LaunchScreen.storyboard */; };
 		0792181C2724B6AB00683107 /* HackDuke2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792181B2724B6AB00683107 /* HackDuke2021Tests.swift */; };
 		079218272724B6AB00683107 /* HackDuke2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218262724B6AB00683107 /* HackDuke2021UITests.swift */; };
+		0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792184E2724BCE600683107 /* RecipeTableViewController.swift */; };
+		079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218532724BCF900683107 /* RecipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		079218222724B6AB00683107 /* HackDuke2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDuke2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		079218262724B6AB00683107 /* HackDuke2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackDuke2021UITests.swift; sourceTree = "<group>"; };
 		079218282724B6AB00683107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0792184E2724BCE600683107 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		079218532724BCF900683107 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0792180D2724B6AB00683107 /* Assets.xcassets */,
 				0792180F2724B6AB00683107 /* LaunchScreen.storyboard */,
 				079218122724B6AB00683107 /* Info.plist */,
+				0792184E2724BCE600683107 /* RecipeTableViewController.swift */,
+				079218532724BCF900683107 /* RecipeTableViewCell.swift */,
 			);
 			path = HackDuke2021;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				079218092724B6A500683107 /* ViewController.swift in Sources */,
+				079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */,
+				0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */,
 				079218052724B6A500683107 /* AppDelegate.swift in Sources */,
 				079218072724B6A500683107 /* SceneDelegate.swift in Sources */,
 			);
