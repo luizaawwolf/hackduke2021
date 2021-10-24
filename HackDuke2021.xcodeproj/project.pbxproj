@@ -105,13 +105,12 @@
 			children = (
 				079218042724B6A500683107 /* AppDelegate.swift */,
 				079218062724B6A500683107 /* SceneDelegate.swift */,
+				079218582724BDF600683107 /* Tables */,
 				079218082724B6A500683107 /* ViewController.swift */,
 				0792180A2724B6A500683107 /* Main.storyboard */,
 				0792180D2724B6AB00683107 /* Assets.xcassets */,
 				0792180F2724B6AB00683107 /* LaunchScreen.storyboard */,
 				079218122724B6AB00683107 /* Info.plist */,
-				0792184E2724BCE600683107 /* RecipeTableViewController.swift */,
-				079218532724BCF900683107 /* RecipeTableViewCell.swift */,
 			);
 			path = HackDuke2021;
 			sourceTree = "<group>";
@@ -132,6 +131,15 @@
 				079218282724B6AB00683107 /* Info.plist */,
 			);
 			path = HackDuke2021UITests;
+			sourceTree = "<group>";
+		};
+		079218582724BDF600683107 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				0792184E2724BCE600683107 /* RecipeTableViewController.swift */,
+				079218532724BCF900683107 /* RecipeTableViewCell.swift */,
+			);
+			path = Tables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
