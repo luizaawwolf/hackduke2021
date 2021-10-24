@@ -7,22 +7,33 @@
 
 import UIKit
 
-struct Recipe: Codable {
-    var name: String
-}
+//struct Recipe: Codable {
+//    var name: String
+//}
 
 class RecipeTableViewController: UITableViewController {
+    
+    @IBOutlet var feedTableView: UITableView!
+    
+    var networkManager = NetworkManager()
 
-    var RecipeData:Array<Recipe> = Array<Recipe>()
+//    var RecipeData: [Recipe] = []
+    var RecipeData: [Recipe] = [] {
+       didSet {
+           feedTableView.reloadData()
+       }
+    }
+
+    
     
     override func viewDidLoad() {
+        feedTableView.dataSource = self
+        feedTableView.delegate = self
+        
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        updateFeed()
+        
+            
     }
 
     // MARK: - Table view data source
@@ -39,12 +50,19 @@ class RecipeTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath) as! RecipeTableViewCell
         
         let recipe = RecipeData[indexPath.row]
-        
-        cell.textLabel?.text = recipe.name
+        print(recipe.title)
+//        cell.textLabel?.text = recipe.title
         
         return cell
     }
 
+    
+    func updateFeed() {
+       networkManager.getRecipes() { result in
+           self.RecipeData = result
+       }
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
