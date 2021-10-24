@@ -21,6 +21,7 @@
 		F509ADDF2725289C00490D25 /* RecipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F509ADDE2725289C00490D25 /* RecipeView.xib */; };
 		F509ADED2725334200490D25 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509ADEB2725334200490D25 /* RecipeViewController.swift */; };
 		F509ADEE2725334200490D25 /* RecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F509ADEC2725334200490D25 /* RecipeViewController.xib */; };
+		F509ADF6272541BD00490D25 /* RecipeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509ADF5272541BD00490D25 /* RecipeInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F509ADDE2725289C00490D25 /* RecipeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeView.xib; sourceTree = "<group>"; };
 		F509ADEB2725334200490D25 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		F509ADEC2725334200490D25 /* RecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeViewController.xib; sourceTree = "<group>"; };
+		F509ADF5272541BD00490D25 /* RecipeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				F509ADEB2725334200490D25 /* RecipeViewController.swift */,
 				F509ADEC2725334200490D25 /* RecipeViewController.xib */,
 				0792180A2724B6A500683107 /* Main.storyboard */,
+				F509ADF5272541BD00490D25 /* RecipeInfoViewController.swift */,
 				0792180D2724B6AB00683107 /* Assets.xcassets */,
 				0792180F2724B6AB00683107 /* LaunchScreen.storyboard */,
 				079218122724B6AB00683107 /* Info.plist */,
@@ -290,6 +293,7 @@
 				079218092724B6A500683107 /* ViewController.swift in Sources */,
 				079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */,
 				0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */,
+				F509ADF6272541BD00490D25 /* RecipeInfoViewController.swift in Sources */,
 				F509ADED2725334200490D25 /* RecipeViewController.swift in Sources */,
 				079218052724B6A500683107 /* AppDelegate.swift in Sources */,
 				079218072724B6A500683107 /* SceneDelegate.swift in Sources */,

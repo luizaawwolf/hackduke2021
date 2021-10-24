@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,6 +57,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="RecipeTitle" destination="5mu-kp-iaI" id="bye-i6-MqS"/>
+                                    <segue destination="H8e-SY-uZD" kind="presentation" id="4oW-5q-ZEG"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -73,6 +75,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQ0-8A-8Ey" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1597.1014492753625" y="86.383928571428569"/>
+        </scene>
+        <!--Recipe Info View Controller-->
+        <scene sceneID="4Mn-MZ-hcW">
+            <objects>
+                <viewController id="H8e-SY-uZD" customClass="RecipeInfoViewController" customModule="HackDuke2021" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RfC-jR-fBz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cake Balls" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xx-L8-qO1">
+                                <rect key="frame" x="20" y="301" width="357" height="32.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="vHf-8h-a4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3dQ-Rw-1U4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="277"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="jsy-Gj-unt"/>
+                                    <constraint firstAttribute="height" constant="277" id="yej-DV-h59"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXb-Xy-VYA">
+                                <rect key="frame" x="20" y="342" width="374" height="381"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="05z-pf-3fw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="Rth-Ox-4Zf"/>
+                                </constraints>
+                                <mutableString key="text">If you have around &lt;b&gt;around 45 minutes&lt;/b&gt; to spend in the kitchen, Raw Carrot Cake might be a super &lt;b&gt;gluten free, dairy free, lacto ovo vegetarian, and whole 30&lt;/b&gt; recipe to try. For &lt;b&gt;$1.62 per serving&lt;/b&gt;, this recipe &lt;b&gt;covers 13%&lt;/b&gt; of your daily requirements of vitamins and minerals. One portion of this dish contains about &lt;b&gt;10g of protein&lt;/b&gt;, &lt;b&gt;28g of fat&lt;/b&gt;, and a total of &lt;b&gt;483 calories&lt;/b&gt;. This recipe serves 6. 2 people found this recipe to be tasty and satisfying. If you have carrots, desiccated coconut, date purée, and a few other ingredients on hand, you can make it. It is perfect for &lt;b&gt;Easter&lt;/b&gt;. It is brought to you by Foodista. </mutableString>
+                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flP-Cd-Nxk">
+                                <rect key="frame" x="20" y="731" width="357" height="33"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RO2-K4-4In"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3dQ-Rw-1U4" firstAttribute="trailing" secondItem="RO2-K4-4In" secondAttribute="trailing" id="0Kh-Hh-XWO"/>
+                            <constraint firstItem="QXb-Xy-VYA" firstAttribute="leading" secondItem="RO2-K4-4In" secondAttribute="leading" constant="20" id="2hS-ZI-Lod"/>
+                            <constraint firstItem="RO2-K4-4In" firstAttribute="trailing" secondItem="QXb-Xy-VYA" secondAttribute="trailing" constant="20" id="73c-fb-kSh"/>
+                            <constraint firstItem="flP-Cd-Nxk" firstAttribute="top" secondItem="QXb-Xy-VYA" secondAttribute="bottom" constant="8" symbolic="YES" id="MLj-SZ-zia"/>
+                            <constraint firstItem="3dQ-Rw-1U4" firstAttribute="leading" secondItem="RO2-K4-4In" secondAttribute="leading" id="UPa-3M-jyt"/>
+                            <constraint firstItem="3dQ-Rw-1U4" firstAttribute="top" secondItem="RO2-K4-4In" secondAttribute="top" id="Wtx-eE-JCd"/>
+                            <constraint firstItem="2Xx-L8-qO1" firstAttribute="leading" secondItem="RO2-K4-4In" secondAttribute="leading" constant="20" id="fHD-AB-PHV"/>
+                            <constraint firstItem="2Xx-L8-qO1" firstAttribute="top" secondItem="3dQ-Rw-1U4" secondAttribute="bottom" constant="24" id="h3f-pd-j69"/>
+                            <constraint firstItem="2Xx-L8-qO1" firstAttribute="top" secondItem="3dQ-Rw-1U4" secondAttribute="bottom" constant="24" id="jek-KP-n7e"/>
+                            <constraint firstItem="QXb-Xy-VYA" firstAttribute="top" secondItem="2Xx-L8-qO1" secondAttribute="bottom" constant="8.5" id="zEj-sq-snD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="RecipeTitle" destination="2Xx-L8-qO1" id="Zyl-Ix-Ioe"/>
+                        <outlet property="foodImage" destination="3dQ-Rw-1U4" id="g6y-O7-vna"/>
+                        <outlet property="ingredients" destination="flP-Cd-Nxk" id="rju-v3-51Y"/>
+                        <outlet property="summary" destination="QXb-Xy-VYA" id="41Y-Ag-4dT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvw-8B-hje" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2411.594202898551" y="85.714285714285708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Yrd-cs-4GB">
