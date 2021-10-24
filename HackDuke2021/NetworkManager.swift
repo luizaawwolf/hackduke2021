@@ -21,12 +21,18 @@ class NetworkManager {
     var baseURL = "https://api.spoonacular.com/"
     var api_key = "6a7759fef5704426bcac109f81c76b53"
     var searchQuery = "cake"
-    var exclude = "egg"
+    var exclude = ["egg", "gluten"]
+    var intolerances = ["egg", "gluten"]
+    var diets = ["keto"]
 
     func getRecipes(completion: @escaping ([Recipe]) -> Void) {
         // our API query
         
-        let query = "recipes/complexSearch?query=" + searchQuery + "&excludeIngredients=" + exclude + "&apiKey=" + api_key
+        var query = "recipes/complexSearch?query=" + searchQuery + "&apiKey=" + api_key
+        query += "&excludeIngredients=" + exclude.joined(separator: ",")
+        query += "&intolerances=" + intolerances.joined(separator: ",")
+        query += "&diets=" + diets.joined(separator: ",")
+        
         let fullURL = URL(string: baseURL + query)!
         var request = URLRequest(url: fullURL)
 
