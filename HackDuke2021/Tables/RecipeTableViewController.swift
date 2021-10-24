@@ -13,6 +13,7 @@ import UIKit
 
 class RecipeTableViewController: UITableViewController {
     
+   
     @IBOutlet var feedTableView: UITableView!
     
     var networkManager = NetworkManager()
@@ -51,7 +52,7 @@ class RecipeTableViewController: UITableViewController {
         
         let recipe = RecipeData[indexPath.row]
         print(recipe.title)
-//        cell.textLabel?.text = recipe.title
+        cell.RecipeTitle?.text = recipe.title
         
         return cell
     }
