@@ -59,6 +59,9 @@
                             <outlet property="delegate" destination="oW3-PD-HBI" id="j0D-Ud-Wr0"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="feedTableView" destination="VOs-Dt-Bte" id="iWv-hF-gtD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQ0-8A-8Ey" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
