@@ -6,13 +6,31 @@
 //
 import Foundation
 
-struct Recipe: Codable {
+struct Recipe: Decodable {
     var title: String
     var image: String
+    var summary: String
+    var analyzedInstructions: [Instruction]
+//    var ingredients: [Ingredient]?
 }
 
 struct RecipeList: Decodable {
    var results: [Recipe]
+}
+
+struct Instruction: Decodable {
+    var name: String //doesn't matter but here to help
+    var steps: [Step]
+}
+
+struct Step: Decodable {
+    var number: Int
+    var step: String
+    var ingredients: [Ingredient]
+}
+
+struct Ingredient: Decodable {
+    var name: String
 }
 
 class NetworkManager {
@@ -32,6 +50,7 @@ class NetworkManager {
         query += "&excludeIngredients=" + exclude.joined(separator: ",")
         query += "&intolerances=" + intolerances.joined(separator: ",")
         query += "&diets=" + diets.joined(separator: ",")
+        query += "&addRecipeInformation=true"
         
         let fullURL = URL(string: baseURL + query)!
         var request = URLRequest(url: fullURL)
@@ -60,7 +79,14 @@ class NetworkManager {
             return
           }
 
-          let recipes = result.results
+          var recipes = result.results
+            
+//            for var recipe in recipes {
+//                var steps = recipe.analyzedInstructions[0].steps
+//                for step in steps{
+//                    recipe.ingredients.append(contentsOf: step.ingredients)
+//                }
+//            }
             
           // Return the result with the completion handler.
           DispatchQueue.main.async {

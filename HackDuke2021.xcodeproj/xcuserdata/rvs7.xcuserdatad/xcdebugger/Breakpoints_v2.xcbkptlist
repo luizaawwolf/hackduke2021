@@ -14,42 +14,10 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "51216979-D8AB-4FBA-A6EF-4B32C0E9BB2C - f005f82f8aae66a3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HackDuke2021.NetworkManager.getRecipes(completion: (Swift.Array&lt;HackDuke2021.Recipe&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "HackDuke2021"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rvs7/Desktop/hackduke2021/HackDuke2021/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "2278">
-               </Location>
-               <Location
-                  uuid = "51216979-D8AB-4FBA-A6EF-4B32C0E9BB2C - 7ab908c901664f0f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HackDuke2021.NetworkManager.getRecipes(completion: (Swift.Array&lt;HackDuke2021.Recipe&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "HackDuke2021"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rvs7/Desktop/hackduke2021/HackDuke2021/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "318">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,8 +30,8 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +46,8 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +62,8 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +78,8 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +94,8 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
             <Locations>
@@ -178,6 +146,38 @@
             endingLineNumber = "62"
             landmarkName = "updateFeed()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3655507-60B1-4072-8033-8CFD35690355 - 170071e75275565b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackDuke2021.RecipeTableViewController.updateFeed() -&gt; ()"
+                  moduleName = "HackDuke2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rvs7/Desktop/hackduke2021/HackDuke2021/Tables/RecipeTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "E3655507-60B1-4072-8033-8CFD35690355 - 273ac9f4e2094541"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;HackDuke2021.Recipe&gt;) -&gt; () in HackDuke2021.RecipeTableViewController.updateFeed() -&gt; ()"
+                  moduleName = "HackDuke2021"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rvs7/Desktop/hackduke2021/HackDuke2021/Tables/RecipeTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -206,8 +206,24 @@
             filePath = "HackDuke2021/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "getRecipes(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88E2BEDC-9B14-42EF-8656-91521415AD24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HackDuke2021/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "getRecipes(completion:)"
             landmarkType = "7">
          </BreakpointContent>

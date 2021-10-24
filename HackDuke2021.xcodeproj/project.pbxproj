@@ -18,6 +18,9 @@
 		0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792184E2724BCE600683107 /* RecipeTableViewController.swift */; };
 		079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218532724BCF900683107 /* RecipeTableViewCell.swift */; };
 		F509ADCF2724F8B600490D25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509ADCE2724F8B600490D25 /* NetworkManager.swift */; };
+		F509ADDF2725289C00490D25 /* RecipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F509ADDE2725289C00490D25 /* RecipeView.xib */; };
+		F509ADED2725334200490D25 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509ADEB2725334200490D25 /* RecipeViewController.swift */; };
+		F509ADEE2725334200490D25 /* RecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F509ADEC2725334200490D25 /* RecipeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		0792184E2724BCE600683107 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 		079218532724BCF900683107 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		F509ADCE2724F8B600490D25 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F509ADDE2725289C00490D25 /* RecipeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeView.xib; sourceTree = "<group>"; };
+		F509ADEB2725334200490D25 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		F509ADEC2725334200490D25 /* RecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				F509ADCE2724F8B600490D25 /* NetworkManager.swift */,
 				079218582724BDF600683107 /* Tables */,
 				079218082724B6A500683107 /* ViewController.swift */,
+				F509ADDE2725289C00490D25 /* RecipeView.xib */,
+				F509ADEB2725334200490D25 /* RecipeViewController.swift */,
+				F509ADEC2725334200490D25 /* RecipeViewController.xib */,
 				0792180A2724B6A500683107 /* Main.storyboard */,
 				0792180D2724B6AB00683107 /* Assets.xcassets */,
 				0792180F2724B6AB00683107 /* LaunchScreen.storyboard */,
@@ -250,6 +259,8 @@
 			files = (
 				079218112724B6AB00683107 /* LaunchScreen.storyboard in Resources */,
 				0792180E2724B6AB00683107 /* Assets.xcassets in Resources */,
+				F509ADEE2725334200490D25 /* RecipeViewController.xib in Resources */,
+				F509ADDF2725289C00490D25 /* RecipeView.xib in Resources */,
 				0792180C2724B6A500683107 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +290,7 @@
 				079218092724B6A500683107 /* ViewController.swift in Sources */,
 				079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */,
 				0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */,
+				F509ADED2725334200490D25 /* RecipeViewController.swift in Sources */,
 				079218052724B6A500683107 /* AppDelegate.swift in Sources */,
 				079218072724B6A500683107 /* SceneDelegate.swift in Sources */,
 			);
