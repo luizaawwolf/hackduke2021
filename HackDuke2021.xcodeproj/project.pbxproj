@@ -17,6 +17,7 @@
 		079218272724B6AB00683107 /* HackDuke2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218262724B6AB00683107 /* HackDuke2021UITests.swift */; };
 		0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792184E2724BCE600683107 /* RecipeTableViewController.swift */; };
 		079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079218532724BCF900683107 /* RecipeTableViewCell.swift */; };
+		F509ADCF2724F8B600490D25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509ADCE2724F8B600490D25 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		079218282724B6AB00683107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0792184E2724BCE600683107 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 		079218532724BCF900683107 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		F509ADCE2724F8B600490D25 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				079218042724B6A500683107 /* AppDelegate.swift */,
 				079218062724B6A500683107 /* SceneDelegate.swift */,
+				F509ADCE2724F8B600490D25 /* NetworkManager.swift */,
 				079218582724BDF600683107 /* Tables */,
 				079218082724B6A500683107 /* ViewController.swift */,
 				0792180A2724B6A500683107 /* Main.storyboard */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F509ADCF2724F8B600490D25 /* NetworkManager.swift in Sources */,
 				079218092724B6A500683107 /* ViewController.swift in Sources */,
 				079218542724BCF900683107 /* RecipeTableViewCell.swift in Sources */,
 				0792184F2724BCE600683107 /* RecipeTableViewController.swift in Sources */,
