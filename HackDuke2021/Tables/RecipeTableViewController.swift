@@ -14,9 +14,11 @@ import UIKit
 class RecipeTableViewController: UITableViewController {
     
    
+    @IBOutlet var searchBar: UITableView!
     @IBOutlet var feedTableView: UITableView!
     
     var networkManager = NetworkManager()
+    var searching = false
 
 //    var RecipeData: [Recipe] = []
     var RecipeData: [Recipe] = [] {
@@ -32,6 +34,8 @@ class RecipeTableViewController: UITableViewController {
         feedTableView.delegate = self
         
         super.viewDidLoad()
+        title = "Search for Recipes!"
+        
         updateFeed()
         
             
